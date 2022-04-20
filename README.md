@@ -231,7 +231,6 @@ F(A,B,C,D)=a'c'+ac
  ## References
   - [AkshayRaman/Quine-McCluskey-algorithm]
 
- ----
 
 [product-of-sums]: https://www.electronics-tutorials.ws/boolean/product-of-sum.html
 [sum-of-products]: https://www.electronics-tutorials.ws/boolean/sum-of-product.html
