@@ -60,7 +60,7 @@ d 1,13,14,15
   - 第三列為 don't cares，範圍同 minterms。
 
 ## output.txt 格式
- > Karnaugh map 圖示以記事本顯示為標準。
+ > Karnaugh map 圖示以記事本顯示為標準。  
  > 此處以 4 個變數為例。
  
  ```
