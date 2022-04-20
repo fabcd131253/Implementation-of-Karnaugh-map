@@ -34,7 +34,7 @@
  - `checkPI()`：檢查一 minterm 是否能以 minterm expansion 中的任一 prime implicant 表示。
  - `isEPI()`：若 `match()` 只尋找到一個 prime implicant ，則該 prime implicant 為 [essential prime implicant](https://en.wikipedia.org/wiki/Implicant#Prime_implicant)。
  - `reduceEPI()`：將重複的 essential prime implicants 除去。
- - `combine()`：將 [product-of-sums]  [pos] 轉換為 [sum-of-products]  [sop]。
+ - `combine()`：將 [product-of-sums] 轉換為 [sum-of-products]。
  - `split()`：將 sum-of-products 中的每項 product 提取出來。
  - `count()`：與 `split()` 搭配使用，用於選出擁有最少 prime implicants 的 product。
  
@@ -229,10 +229,10 @@ F(A,B,C,D)=a'c'+ac
 ----
 
  ## References
-  - [AkshayRaman/Quine-McCluskey-algorithm]  [ref1]
+  - [AkshayRaman/Quine-McCluskey-algorithm]
 
  ----
 
-[pos]: https://www.electronics-tutorials.ws/boolean/product-of-sum.html
-[sop]: https://www.electronics-tutorials.ws/boolean/sum-of-product.html
-[ref1]: https://github.com/AkshayRaman/Quine-McCluskey-algorithm/blob/master/Quine-McClusky.cpp
+[product-of-sums]: https://www.electronics-tutorials.ws/boolean/product-of-sum.html
+[sum-of-products]: https://www.electronics-tutorials.ws/boolean/sum-of-product.html
+[AkshayRaman/Quine-McCluskey-algorithm]: https://github.com/AkshayRaman/Quine-McCluskey-algorithm/blob/master/Quine-McClusky.cpp
