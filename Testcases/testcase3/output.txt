@@ -1,0 +1,11 @@
+  \ A|       |
+ B \ |  0   1|
+-----+---+---+
+    0| 1 | 0 |
+-----+---+---+
+    1| x | 0 |
+-----+---+---+
+
+Prime implicant: a'
+Essential prime implicant: a'
+F(A,B)=a'
