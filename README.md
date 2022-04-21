@@ -1,4 +1,4 @@
-# Karnaugh map illustrator
+# Implementation of Karnaugh map
  > This file is written in Traditional Chinese, encoding in UTF-8.
 
  此程式用於實現輸出 Karnaugh map 的圖示、prime implicants、essential prime implicants 及 variables 的 minimum minterm expansion。
