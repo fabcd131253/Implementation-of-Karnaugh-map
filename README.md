@@ -191,7 +191,6 @@ Quine-McCluskey Algorithm 到此處結束。
 ```
 
 - 利用 `combine()` 與 ArrayList 中，新資料會置於陣列最後方的特性，將 product-of-sums 轉換為 sum-of-products。
-- 注意到 `combine()` 中已處理 XX = X 的情況。
    
 
 ### Step 2-3
@@ -214,6 +213,7 @@ Quine-McCluskey Algorithm 到此處結束。
 ```
 
 - 尋找 prime implicants 最少的 sum-of-products。
+- 注意到 `combine()` 中已處理 XX = X 的情況。
    
 
 ### Step 2-4
