@@ -213,7 +213,7 @@ Quine-McCluskey Algorithm 到此處結束。
 ```
 
 - 尋找 prime implicants 最少的 sum-of-products。
-- 注意到 `combine()` 中已處理 XX = X 的情況。
+- 注意到 `split()` 中已處理 XX = X 的情況。
    
 
 ### Step 2-4
